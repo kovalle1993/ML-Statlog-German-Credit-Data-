@@ -6,6 +6,9 @@
 La correcta clasificación de los solicitantes de crédito es fundamental para mitigar el riesgo financiero en instituciones bancarias. Este estudio utiliza un dataset con 1000 observaciones para identificar si un cliente es **bueno (clase 1)** o **malo (clase 2)** a partir de variables demográficas y financieras. El propósito es comparar el desempeño de tres algoritmos de clasificación: Regresión Logística, Support Vector Machine (SVM) y Árbol de Decisión, priorizando la identificación correcta de los buenos clientes.
 
 ## 2. Metodología
+### 2.1 Descripción de la base de datos
+Se utilizó un conjunto de datos Statlog (German Credit Data). El dataset incluye 1.000 observaciones y 20 variables predictoras, tanto cualitativas como cuantitativas, relacionadas con historial crediticio, ingresos, empleo, edad, duración del préstamo, entre otras. La variable objetivo distingue entre buenos (1) y malos (2) pagadores. Dado el costo diferencial de los errores, se dio especial importancia a la correcta identificación de los buenos clientes (clase 1), buscando minimizar falsos positivos en este grupo.
+
 
 ### 2.1 Análisis exploratorio de datos (EDA)
 
